@@ -16,16 +16,20 @@ Neste Repositório contém o código em Python youtube_download_videos.py, que, 
 ![image](https://user-images.githubusercontent.com/52248363/90988666-f81a7900-e56a-11ea-97c5-25532ccb279e.png)
 
 - Procurar pela API do YOUTUBE (Obs.: neste projeto será utilizada a API "YouTube Data API v3" destacada)
+
 ![image](https://user-images.githubusercontent.com/52248363/90988760-9f97ab80-e56b-11ea-923c-0819b212cf82.png)
 
 - Com a API selecionada, deve-se ativar a API no projeto:
+
 ![image](https://user-images.githubusercontent.com/52248363/90988801-0f0d9b00-e56c-11ea-8e8b-ac4c6b1b4200.png)
 
 - Após ativação da API, deve-se criar a credencial
+
 ![image](https://user-images.githubusercontent.com/52248363/90988850-71ff3200-e56c-11ea-96bf-3c8c5167ef26.png)
 
 
 - Para habilitar a API KEY, deve-se preencher os campos:
+
 ![image](https://user-images.githubusercontent.com/52248363/90988896-b68acd80-e56c-11ea-97f2-a265ed5c2fce.png)
 
 - Feito os procedimetnos acima a API KEY será gerada:
@@ -36,7 +40,7 @@ Esta API KEY Será armazenada em uma variável de ambiente.
 
 > Documentação da API: https://developers.google.com/youtube/v3?hl=pt_BR
 
-Neste projeto foi utilizado o pacote google api client para pithon (Documentação: https://github.com/googleapis/google-api-python-client):
+Neste projeto foi utilizado o pacote google api client para pithon (Documentação: https://github.com/googleapis/google-api-python-client)
 Instalação: `pip install google-api-python-client`
 
 Deste pacote foi utilizado a funçao build (http://googleapis.github.io/google-api-python-client/docs/epy/googleapiclient.discovery-module.html#build)
