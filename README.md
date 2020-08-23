@@ -53,6 +53,18 @@ Está função recebe como parâmetros serviceName e version, que, pode ser veri
 Com isso, pode-se consultar os metódos disponíveis da API do YouTube em: http://googleapis.github.io/google-api-python-client/docs/dyn/youtube_v3.html
 
 Exemplo de request da API
+```python
+import os
+from googleapiclient.discovery import build
 
-![image](https://user-images.githubusercontent.com/52248363/90991035-79c6d280-e57c-11ea-9c2f-66b71665d141.png)
+api_key = os.environ.get('YT_API_KEY')
 
+youtube = build('youtube','v3', developerKey=api_key)
+
+request = youtube.channels().list(
+			part='statistics',
+			forUsername='dataschool'
+	)
+
+response = request.execute()
+```
