@@ -36,7 +36,7 @@ Neste Repositório contém o código em Python youtube_download_videos.py, que, 
 
 ![image](https://user-images.githubusercontent.com/52248363/90989004-9c9dba80-e56d-11ea-8c7a-84c8622b85b0.png)
 
-Esta API KEY Será armazenada em uma variável de ambiente.
+Esta API KEY foi armazenada em uma variável de ambiente.
 
 > Documentação da API: https://developers.google.com/youtube/v3?hl=pt_BR
 
