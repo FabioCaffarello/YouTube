@@ -171,7 +171,15 @@ def donwload_videos(video):
 	with open(f'{play_title}/Textos/{title}.txt','w', encoding='utf-8') as file:
 		file.write(text)
 
-	YouTube(yt_link).streams.first().download(output_path=path_video, filename=title)
+	count = 0
+	while True:
+		try:
+			YouTube(yt_link).streams.first().download(output_path=path_video, filename=title)
+			break
+		except:
+			count += 1
+			if count > 2:
+				break
 
 with concurrent.futures.ThreadPoolExecutor() as executor:
 	executor.map(donwload_videos, videos)
