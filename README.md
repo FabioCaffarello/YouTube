@@ -1,11 +1,30 @@
-# YouTube Download
+# YouTube
 
-Neste Repositório contém o código em Python <a href="https://github.com/FabioCaffarello/YouTube/blob/master/youtube_download_videos.py">youtube_download_videos.py</a> , que, tem por objetivo realizar o download e construir um arquivo de texto para todos os vídeos de uma playlist do youtube.
+Neste Repositório contém códigos em Python, que estabelecem comunicação com o youtube.
+
+
+**- Funcionalidade de Download**
+tem por objetivo realizar o download e construir um arquivo de texto para todos os vídeos de uma playlist do youtube
+<a href="https://github.com/FabioCaffarello/YouTube/blob/master/youtube_download_videos.py">youtube_download_videos.py</a>
+
+**- Funcionalidade de ETL**
+tem por objetivo realizar ETL de dados do youtube e os carregar em banco de dados relacional (MySQL) e salvar a descrição em banco de dados Não relacional (MongoDB).
+"Cógigo Hiperlink AQUI"
+
+Modelagem do SQL:
+![database_model](https://user-images.githubusercontent.com/52248363/94188853-52676c00-fe80-11ea-8a24-0c42a0b95f87.png)
+
+**Cada Função do código alimenta uma das tabelas e também alimenta uma collection no MongoDB, sendo que se armazena no MongoDB o ID proveniente do youtube e o ID proveniente do SQL e a descrição relacionada a cada collection.**
+O objetivo de armazenar no MongoDB é de não onerar o BD relacional e poder realizar análises de text mining futuramente.
+
+
 
 
 - Passos a serem realizados antes:
   1. Criar uma API KEY;
   2. Instalção do pacote google api client para python;
+  3. Instalar o MySQL e salvar o user e password em variáveis de ambientes;
+  4. Instalar o MongoDB.
   
 ### Criar uma API KEY
 
