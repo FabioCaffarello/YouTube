@@ -27,7 +27,7 @@ O objetivo de armazenar no MongoDB é de não onerar o BD relacional e poder rea
 
 
 
-- Passos a serem realizados antes:
+#### Passos a serem realizados antes:
   1. Criar uma API KEY;
   2. Instalção do pacote google api client para python;
   3. Instalar o MySQL e salvar o user e password em variáveis de ambientes;
