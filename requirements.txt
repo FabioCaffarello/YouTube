@@ -9,14 +9,17 @@ google-auth-httplib2==0.0.4
 googleapis-common-protos==1.52.0
 httplib2==0.18.1
 idna==2.10
+mysql-connector-python==8.0.21
 protobuf==3.13.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
+pymongo==3.11.0
 pytube3==9.6.4
 pytz==2020.1
 requests==2.24.0
 rsa==4.6
 six==1.15.0
+typing-extensions==3.7.4.3
 uritemplate==3.0.1
 urllib3==1.25.10
 zope.interface==5.1.0
