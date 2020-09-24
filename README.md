@@ -12,8 +12,11 @@ Código: <a href="https://github.com/FabioCaffarello/YouTube/blob/master/youtube
 tem por objetivo realizar ETL de dados do youtube e os carregar em banco de dados relacional (MySQL) e salvar a descrição em banco de dados Não relacional (MongoDB).
 
 Código: <a href="https://github.com/FabioCaffarello/YouTube/blob/master/ETL_YouTube.py">ETL_YouTube.py</a>
+**Diagrama:**
 
-Modelagem do SQL:
+![Diagrama](https://user-images.githubusercontent.com/52248363/94203180-505bd800-fe95-11ea-81b3-eb9312f6a9dc.png)
+
+**Modelagem do SQL:**
 
 ![database_model](https://user-images.githubusercontent.com/52248363/94188853-52676c00-fe80-11ea-8a24-0c42a0b95f87.png)
 
