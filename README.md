@@ -12,6 +12,7 @@ tem por objetivo realizar ETL de dados do youtube e os carregar em banco de dado
 "Cógigo Hiperlink AQUI"
 
 Modelagem do SQL:
+
 ![database_model](https://user-images.githubusercontent.com/52248363/94188853-52676c00-fe80-11ea-8a24-0c42a0b95f87.png)
 
 **Cada Função do código alimenta uma das tabelas e também alimenta uma collection no MongoDB, sendo que se armazena no MongoDB o ID proveniente do youtube e o ID proveniente do SQL e a descrição relacionada a cada collection.**
